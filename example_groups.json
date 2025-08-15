@@ -1,0 +1,42 @@
+[
+  {
+    "warehouse_id": "BRTW01",
+    "code": 1,
+    "description": "PACKING"
+  },
+  {
+    "warehouse_id": "BRTW01",
+    "code": 2,
+    "description": "PICKING"
+  },
+  {
+    "warehouse_id": "BRTW01",
+    "code": 3,
+    "description": "RECEIVING"
+  },
+  {
+    "warehouse_id": "BRTW01",
+    "code": 4,
+    "description": "SHIPPING"
+  },
+  {
+    "warehouse_id": "BRTW01",
+    "code": 5,
+    "description": "INVENTORY"
+  },
+  {
+    "warehouse_id": "BRTW02",
+    "code": 1,
+    "description": "PACKING"
+  },
+  {
+    "warehouse_id": "BRTW02",
+    "code": 2,
+    "description": "PICKING"
+  },
+  {
+    "warehouse_id": "BRTW02",
+    "code": 3,
+    "description": "RECEIVING"
+  }
+]

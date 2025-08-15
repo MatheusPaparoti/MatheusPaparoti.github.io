@@ -1,0 +1,71 @@
+{
+  "api_configs": {
+    "development": {
+      "base_url": "https://api-dev.exemplo.com",
+      "caller_id": "123",
+      "description": "Ambiente de desenvolvimento"
+    },
+    "staging": {
+      "base_url": "https://api-staging.exemplo.com",
+      "caller_id": "456",
+      "description": "Ambiente de homologação"
+    },
+    "production": {
+      "base_url": "https://api.exemplo.com",
+      "caller_id": "789",
+      "description": "Ambiente de produção"
+    }
+  },
+  "default_warehouses": [
+    "BRTW01",
+    "BRTW02",
+    "BRTW03"
+  ],
+  "common_group_types": [
+    {
+      "code": 1,
+      "description": "PACKING",
+      "description_pt": "EMBALAGEM"
+    },
+    {
+      "code": 2,
+      "description": "PICKING",
+      "description_pt": "SEPARAÇÃO"
+    },
+    {
+      "code": 3,
+      "description": "RECEIVING",
+      "description_pt": "RECEBIMENTO"
+    },
+    {
+      "code": 4,
+      "description": "SHIPPING",
+      "description_pt": "EXPEDIÇÃO"
+    },
+    {
+      "code": 5,
+      "description": "INVENTORY",
+      "description_pt": "INVENTÁRIO"
+    },
+    {
+      "code": 6,
+      "description": "QUALITY_CONTROL",
+      "description_pt": "CONTROLE_QUALIDADE"
+    },
+    {
+      "code": 7,
+      "description": "MAINTENANCE",
+      "description_pt": "MANUTENÇÃO"
+    }
+  ],
+  "rate_limiting": {
+    "delay_between_requests": 2,
+    "max_requests_per_minute": 30
+  },
+  "validation": {
+    "max_warehouse_id_length": 10,
+    "max_description_length": 50,
+    "min_code_value": 1,
+    "max_code_value": 999
+  }
+}
