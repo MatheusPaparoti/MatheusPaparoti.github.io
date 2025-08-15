@@ -1,0 +1,33 @@
+{
+  "api": {
+    "base_url": "https://your-api-domain.com",
+    "caller_id": "123",
+    "timeout": 30
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "workstation_automation.log"
+  },
+  "workstations": [
+    {
+      "warehouse_id": "MKTM01",
+      "code": 1,
+      "description": "PACKING"
+    },
+    {
+      "warehouse_id": "MKTM01",
+      "code": 2,
+      "description": "PICKING"
+    },
+    {
+      "warehouse_id": "MKTM02",
+      "code": 1,
+      "description": "SHIPPING"
+    },
+    {
+      "warehouse_id": "MKTM02",
+      "code": 2,
+      "description": "RECEIVING"
+    }
+  ]
+}
